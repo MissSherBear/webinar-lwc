@@ -1,6 +1,8 @@
 # Webinar Lightning Web Component
 Salesforce Lightning Web Component displaying upcoming events and webinars.
 
+![Alt text](./webinarcomponent.png "Webinar Component")
+
 ### Component Markup
 ```html
 <template>
