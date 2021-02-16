@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata" fqn="webinar">
+    <apiVersion>47.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__RecordPage</target>
+        <target>lightning__HomePage</target>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+        <target>lightning__AppPage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="webinarTitle" type="String" default="" label="Webinar Title" />
+            <property name="webinarDate" type="String" default="" label="Date" />
+            <property name="webinarTime" type="String" default="" label="Time" />
+            <property name="displayMonth" type="String" default="" label="Calendar Month" />
+            <property name="displayDay" type="String" default="" label="Calendar Day" />
+            <property name="buttonlabel" type="String" default="" label="Button Label" />
+            <property name="buttonlink" type="String" default="" label="Button Link" />
+            <property name="agendaItem1" type="String" default="" label="Agenda Item 1" />
+            <property name="agendaItem2" type="String" default="" label="Agenda Item 2" />
+            <property name="agendaItem3" type="String" default="" label="Agenda Item 3" />
+            <property name="agendaItem4" type="String" default="" label="Agenda Item 4" />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

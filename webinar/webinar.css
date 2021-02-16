@@ -1,0 +1,19 @@
+.slds-card {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .1);
+}
+
+.event-block {
+    border-radius: 5px;
+    width: 6rem;
+    height: 6rem;
+    padding: .25rem;
+    background: #1BAFDD;
+    color: #FFF;
+    display: inline-block;
+    text-align: center;
+}
+
+.webinar-title {
+    color: #1BAFDD;
+    font-size: 18px;
+}
